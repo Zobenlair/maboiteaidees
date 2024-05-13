@@ -1,0 +1,114 @@
+/*<!-- J'écris un commentaire via cette mise en forme*/
+
+/*index.html*/
+
+body {
+    background: linear-gradient(to left, #ffc815, #ff310d); /*crée un dégradé allant vers la gauche*/
+}
+
+.page {
+    background-color: beige; /*choix de la couleur du fond*/
+    border-radius: 25px;
+}
+
+header, nav {
+    text-align: center; /*Alignement du texte au centre*/
+    padding-top: 20px; /*taille (rembourrage) du côté intérieur-top du bloc*/
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav a {
+    color: white; /*choix de la couleur du texte*/
+    font-size: 1em; /*taille relative (à l'écran) du texte*/
+    background-color: #0a0a40;
+    border-radius: 50px; /*mesure de l'arrondi*/
+    padding: 1em; /*largeur du bloc*/
+}
+
+nav a:hover {
+    background: linear-gradient(to left, #ffc815, #ff310d);
+    text-decoration: unset;
+}
+
+section {
+    padding: 80px;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; /*choix de la typographie du texte*/
+    color: #0a0a40; /*choix de la couleur du texte*/
+}
+
+.h1p {
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: "Manrope", sans-serif;
+    color: #0a0a40;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif; 
+    color:p#0a0a40;
+}
+
+ul, ol {
+    font-size: 1em;
+    font-family: "Manrope", sans-serif;
+    color: #0a0a40;
+}
+
+a {
+    font-size: 1em;
+    font-family: "Manrope", sans-serif;
+    color: #0a0a40;
+    text-decoration: none;
+}
+
+a:hover { /*quand les ancres sont survolées*/
+    text-decoration: underline; /*soulige le texte*/
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    background-color: #0a0a40;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer a {
+    color: white;
+    font-size: 1em;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_logo {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*a-propos.html*/
+.blabla {
+    background-color: #ffc815;
+    border-right: #ff310d solid;
+    border-bottom: #ff310d solid;
+    border-radius: 27% 73% 95% 5% / 13% 12% 88% 87%;
+    padding: 80px;
+}
